@@ -29,7 +29,7 @@ end
 # REMEBER THAT .chomps returns a string. 
 
 def list(songs)
-  songs.maps.with_index do |element,index|
+  songs.map.with_index do |element,index|
     puts "#{index + 1}. #{element}"
     binding.pry 
   end 
