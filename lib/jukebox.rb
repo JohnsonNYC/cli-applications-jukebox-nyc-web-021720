@@ -29,7 +29,8 @@ end
 # REMEBER THAT .chomps returns a string. 
 
 def list(songs)
-  list.
+  songs.maps.with_index do |element,index|
+    puts ""
 end 
 
 
