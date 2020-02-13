@@ -30,8 +30,9 @@ end
 
 def list(songs)
 i = 0 
-  for i < songs.length do 
+  for i < songs.length
     puts "#{i}. #{songs[i]}"
+    i += 1
   end 
 end 
 
