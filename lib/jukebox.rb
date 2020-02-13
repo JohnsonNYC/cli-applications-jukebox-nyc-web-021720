@@ -19,3 +19,15 @@ def play(songs)
     puts "Invalid input, please try again"
   end
 end 
+
+#if the input is a number greater than 1 AND less than the amount of elements in an array 
+# we show "Playing #{song[index]}"
+#else if the input corresponds with an element inside the songs array 
+# we show "Playing #{whatever song matches the input}"
+#else 
+# neither conditions are met so we show "Invalid input, try again"
+# REMEBER THAT .chomps returns a string. 
+
+def exit_jukebox
+  puts "Goodbye"
+end 
