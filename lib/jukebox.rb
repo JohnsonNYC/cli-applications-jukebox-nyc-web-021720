@@ -16,6 +16,7 @@ def play(songs)
   songs.each do |song|
     if input == song || song_num 
       puts song
+      binding.pry 
     end 
   end 
 end 
