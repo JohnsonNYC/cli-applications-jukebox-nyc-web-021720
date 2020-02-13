@@ -28,8 +28,11 @@ end
 # neither conditions are met so we show "Invalid input, try again"
 # REMEBER THAT .chomps returns a string. 
 
-def list
-
+def list(songs)
+i = 0 
+  for i < songs.length
+    puts "#{i}. #{songs[i]}"
+  end 
 end 
 
 
