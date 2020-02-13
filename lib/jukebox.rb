@@ -14,6 +14,7 @@ def play(songs)
   song_num = [1.. songs.length]
   
   songs.each do |song|
-    
+    if input == song || song_num 
+      puts 
   end 
 end 
