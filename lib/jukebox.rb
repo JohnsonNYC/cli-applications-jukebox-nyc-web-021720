@@ -12,7 +12,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
   song_num = []
-  for i 
+  for i < songs.length 
   
   songs.each do |song|
     if input == song || song_num 
