@@ -29,11 +29,7 @@ end
 # REMEBER THAT .chomps returns a string. 
 
 def list(songs)
-i = 0 
-  for i < songs.length do 
-    puts "#{i}. #{songs[i]}"
-    i += 1
-  end 
+  list.
 end 
 
 
