@@ -30,7 +30,7 @@ end
 
 def list(songs)
 i = 0 
-  for i < songs.length
+  for i < songs.length do 
     puts "#{i}. #{songs[i]}"
   end 
 end 
