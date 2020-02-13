@@ -31,7 +31,6 @@ end
 def list(songs)
   songs.map.with_index do |element,index|
     puts "#{index + 1}. #{element}"
-    binding.pry 
   end 
 end 
 
