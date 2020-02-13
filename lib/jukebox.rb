@@ -30,7 +30,7 @@ end
 
 def list(songs)
   songs.maps.with_index do |element,index|
-    puts ""
+    puts "#{index + 1}. #{element}"
 end 
 
 
