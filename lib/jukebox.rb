@@ -28,6 +28,11 @@ end
 # neither conditions are met so we show "Invalid input, try again"
 # REMEBER THAT .chomps returns a string. 
 
-def exit_jukebox
-  puts "Goodbye"
+def list
+
 end 
+
+
+#def exit_jukebox
+#  puts "Goodbye"
+#end 
